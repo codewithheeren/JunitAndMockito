@@ -1,4 +1,24 @@
 ## Mockito testing implementation 
+```text
+Note- 
+1. Your Application @SpringBootApplication package name and Test package name should be same .
+
+2. junit,mockito, assertj etc all these dependencies comes under spring boot starter test.
+
+3. If you are using JUnit 5,then You do NOT need to add
+
+@RunWith(SpringRunner.class) on top of
+
+@WebMvcTest(HelloWorldController.class)
+
+JUnit 4 Code @RunWith(SpringRunner.class)
+
+@WebMvcTest(HelloWorldController.class)
+
+JUnit 5 Code @WebMvcTest(HelloWorldController.class)
+```
+---
+
 ![image](https://github.com/codewithheeren/JunitAndMockito/assets/87074236/a22ac514-80a7-4ec6-a421-9344505e6652)
 
 ### pom.xml 
@@ -104,22 +124,4 @@ public class HelloWorldControllerTest {
 
 ```
 ---
-```text
-Note- 
-1. Your Application @SpringBootApplication package name and Test package name should be same .
 
-2. junit,mockito, assertj etc all these dependencies comes under spring boot starter test.
-
-3. If you are using JUnit 5,then You do NOT need to add
-
-@RunWith(SpringRunner.class) on top of
-
-@WebMvcTest(HelloWorldController.class)
-
-JUnit 4 Code @RunWith(SpringRunner.class)
-
-@WebMvcTest(HelloWorldController.class)
-
-JUnit 5 Code @WebMvcTest(HelloWorldController.class)
-```
----
