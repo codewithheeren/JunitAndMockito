@@ -1,5 +1,5 @@
 # JunitAndMockito Interview Questions
-Junit and mocktio testing implementations
+Junit and mockito testing implementations
 
 1. what is Junit ?
 2. what are are most commonly used annotations in junit ?
