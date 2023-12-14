@@ -104,3 +104,22 @@ public class HelloWorldControllerTest {
 
 ```
 ---
+```text
+Note- 
+1. Your Application @SpringBootApplication package name and Test package name should be same .
+
+2. junit,mockito, assertj etc all these dependencies comes under spring boot starter test.
+
+3. If you are using JUnit 5,then You do NOT need to add
+
+@RunWith(SpringRunner.class) on top of
+
+@WebMvcTest(HelloWorldController.class)
+
+JUnit 4 Code @RunWith(SpringRunner.class)
+
+@WebMvcTest(HelloWorldController.class)
+
+JUnit 5 Code @WebMvcTest(HelloWorldController.class)
+```
+---
