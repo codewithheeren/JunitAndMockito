@@ -1,4 +1,7 @@
 ## Mockito testing implementation 
+### Project Structure 
+![image](https://github.com/codewithheeren/JunitAndMockito/assets/87074236/0bbcb39e-4ea1-46f1-b91e-bc20a5844126)
+
 ```text
 @InjectMocks And @Mock annotation
 
