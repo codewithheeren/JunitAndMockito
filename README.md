@@ -10,3 +10,4 @@ Junit and mockito testing implementations
 7. why can't mock static methods in mockito ?
 8. what is the use of @Ignore annotation ?
 9. can we mock private methods ?
+10. what is the use of verify method ?
