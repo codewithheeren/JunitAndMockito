@@ -45,7 +45,7 @@ public class ItemController {
 ### Item.java
 
 ```java
-ppackage com.codewithheeren.model;
+package com.codewithheeren.model;
 
 public class Item {
 	private int id;
