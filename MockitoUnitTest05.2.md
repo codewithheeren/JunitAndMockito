@@ -1,4 +1,7 @@
 ## Mockito testing implementation 
+### Project Structure
+![image](https://github.com/codewithheeren/JunitAndMockito/assets/87074236/e5665982-1437-4aad-bb5b-1b0dfdc541e1)
+
 ### Note
 ```text
 Difference between @MockBean and @Mock
