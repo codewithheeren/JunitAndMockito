@@ -1,4 +1,6 @@
 ## Mockito testing implementation 
+### Project Structure 
+![image](https://github.com/codewithheeren/JunitAndMockito/assets/87074236/06ba867e-da62-4a44-b9b2-fcbb0ac3955b)
 
 ### pom.xml 
 ```xml
