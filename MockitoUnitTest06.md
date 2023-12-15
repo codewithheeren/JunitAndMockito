@@ -1,4 +1,7 @@
 ## Mockito testing implementation 
+### Project Structure 
+![image](https://github.com/codewithheeren/JunitAndMockito/assets/87074236/9ccab43f-2d29-4b95-bb93-61e5d845b34d)
+
 ### Note-
 ```text
 why we use @AutoConfigureTestDatabase ?
